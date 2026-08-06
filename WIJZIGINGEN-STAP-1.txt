@@ -1,0 +1,25 @@
+STAP 1 — BASISIMPORT, BUDGET, REISPLANNING EN PAKLIJST
+
+Gewijzigd:
+- src/types.ts
+- src/utils/excelImport.ts
+- src/components/ImportCenterModal.tsx
+- src/components/BudgetView.tsx
+- src/App.tsx
+- package.json
+
+Resultaat:
+- Reisplanning en Kaart gebruiken data.countries (niet het niet-bestaande data.countryPlans).
+- Budgettabblad wordt specifieker ingelezen: thuis, vluchten, vervoer, brandstof,
+  accommodaties, maaltijden/boodschappen, activiteiten, verzekeringen, visa,
+  voorbereiding en onvoorzien.
+- Werkelijk uitgegeven bedrag wordt op de Budgetpagina berekend uit de echte uitgaven.
+- Nieuwe uitgavencategorieën zijn toegevoegd.
+- Namen Mark/Laura zijn vervangen door Bas/Maartje in het uitgavenformulier.
+- Paklijst uit Excel wordt geïmporteerd en per persoon/categorie ingedeeld.
+- Importvoorbeeld toont het aantal gevonden paklijstitems.
+
+Nog niet in deze stap:
+- PDF-upload bij vluchten, accommodaties, autohuur, verzekeringen en activiteiten.
+- Bulkimport uit Wanderlog-PDF.
+- Uitbreiding van autohuurvelden.

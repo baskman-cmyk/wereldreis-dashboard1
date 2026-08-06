@@ -1,0 +1,6 @@
+{
+  "name": "Wereldreis Dashboard",
+  "description": "Moderne, responsive webapp voor een gezins-wereldreis van 5 maanden met offline functionaliteit, route- en accommodatiebeheer, budgettering, camperbeheer, paklijsten, dagboek en AI-reisassistent.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

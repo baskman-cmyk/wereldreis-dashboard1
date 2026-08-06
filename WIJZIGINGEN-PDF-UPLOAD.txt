@@ -1,0 +1,25 @@
+Gewijzigd voor versie 1.4.3
+
+Nieuw:
+- src/components/PdfAttachmentControl.tsx
+
+Gewijzigd:
+- src/types.ts
+- src/App.tsx
+- src/components/AccommodatiesView.tsx
+- src/components/VluchtenView.tsx
+- src/components/CamperView.tsx
+- src/components/DocumentenView.tsx
+- src/components/ActiviteitenView.tsx
+- package.json
+- public/sw.js
+- RELEASE_NOTES.md
+
+Functionaliteit:
+- PDF upload/open/download/verwijderen bij accommodaties.
+- PDF upload/open/download/verwijderen bij vluchten.
+- Huurcontract en verzekerings-PDF bij autohuur.
+- Verzekeringsvelden en PDF bij documenten.
+- PDF bij activiteiten, excursies en entreebewijzen.
+- PDF's worden lokaal als data-url opgeslagen (maximaal 4 MB per bestand).
+- Statische blokken over autoverbruik, tolpas, kinderzitjes en wendbaarheid verwijderd.
